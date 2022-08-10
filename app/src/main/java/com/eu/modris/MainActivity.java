@@ -33,21 +33,13 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    public void openSportsList(){
+    public void openSportsList() {
 //        Intent intent = new Intent(this, SportsList.class);
 //        startActivity(intent);
 
         TextView username = (TextView) findViewById(R.id.username);
         TextView password = (TextView) findViewById(R.id.password);
-        try {
-            connector.login(username.getText().toString(), password.getText().toString());
 
-            Intent intent = new Intent(this, SportsList.class);
-        startActivity(intent);
-
-        } catch (IOException ioException){
-            Log.e(TAG, "openSportsList: ", ioException);
-        }
-        catch (UnauthorizedLoginException e){}
+        new LoginAsyncTask(this).execute(username.getText().toString(), password.getText().toString());
     }
 }
