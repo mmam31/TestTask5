@@ -8,7 +8,7 @@ import javax.net.ssl.HttpsURLConnection;
 
 public class RESTConnector {
 
-    public void login(String username, String password) throws IOException {
+    public void login(String username, String password) throws IOException, UnauthorizedLoginException {
 
         URL loginEndpoint = new URL("https://engine.free.beeceptor.com/api/login");
 
@@ -22,8 +22,10 @@ public class RESTConnector {
         try {
 
             if (myConnection.getResponseCode() == 200) {
+                return;
 
             } else if (myConnection.getResponseCode() == 401) {
+                throw new UnauthorizedLoginException();
 
             } else {
                 throw new IOException("Unknown Error");
