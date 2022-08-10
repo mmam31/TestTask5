@@ -17,7 +17,7 @@
         android:layout_marginBottom="10dp"
         android:drawableLeft="@drawable/american_football"
         android:text="American Football"
-        android:textAlignment="textStart"/>
+        android:textAlignment="textStart" />
 
     <Button
         android:id="@+id/button2"
