@@ -31,12 +31,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:drawableLeft="@drawable/clock"
                 android:text="11:10-12:30" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:drawableLeft="@drawable/calendar"
                 android:text="2021-04-15" />
 
         </TableRow>
@@ -71,7 +73,8 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:drawableRight="@drawable/navigation"/>
 
         </TableRow>
 
@@ -88,7 +91,8 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:drawableRight="@drawable/phone"/>
 
         </TableRow>
 
