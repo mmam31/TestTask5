@@ -16,7 +16,8 @@
         android:layout_marginEnd="70dp"
         android:layout_marginBottom="10dp"
         android:drawableLeft="@drawable/american_football"
-        android:text="American Football" />
+        android:text="American Football"
+        android:textAlignment="textStart"/>
 
     <Button
         android:id="@+id/button2"
@@ -28,19 +29,21 @@
         android:layout_marginBottom="10dp"
         android:layout_below="@id/button"
         android:drawableLeft="@drawable/basketball"
-        android:text="Basketball" />
+        android:text="Basketball"
+        android:textAlignment="textStart"/>
 
     <Button
-    android:id="@+id/button3"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:layout_marginStart="70dp"
-    android:layout_marginTop="10dp"
-    android:layout_marginEnd="70dp"
-    android:layout_marginBottom="10dp"
-    android:layout_below="@id/button2"
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@id/button2"
         android:drawableLeft="@drawable/cricket"
-    android:text="Cricket" />
+        android:text="Cricket"
+        android:textAlignment="textStart"/>
 
     <Button
         android:id="@+id/button4"
@@ -52,7 +55,8 @@
         android:layout_marginBottom="10dp"
         android:layout_below="@id/button3"
         android:drawableLeft="@drawable/mma"
-        android:text="Mixed Martial Arts" />
+        android:text="Mixed Martial Arts"
+        android:textAlignment="textStart"/>
 
     <Button
         android:id="@+id/button5"
@@ -64,7 +68,8 @@
         android:layout_marginBottom="10dp"
         android:layout_below="@id/button4"
         android:drawableLeft="@drawable/rugby"
-        android:text="Rugby League" />
+        android:text="Rugby League"
+        android:textAlignment="textStart"/>
 
     <Button
         android:id="@+id/button6"
@@ -76,7 +81,7 @@
         android:layout_marginEnd="70dp"
         android:layout_marginBottom="10dp"
         android:drawableLeft="@drawable/football"
-
+        android:textAlignment="textStart"
         android:text="Soccer - Other" />
 
 
