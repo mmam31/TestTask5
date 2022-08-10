@@ -18,7 +18,7 @@
         android:background="@color/white"
         android:hint="User name"
         android:textAlignment="center"
-        android:textSize="20dpdp"
+        android:textSize="20dp"
         tools:layout_editor_absoluteX="177dp"
         tools:layout_editor_absoluteY="83dp" />
 
@@ -28,13 +28,13 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/username"
         android:layout_marginStart="70dp"
-        android:layout_marginTop="30dpdp"
+        android:layout_marginTop="10dp"
         android:layout_marginEnd="70dp"
         android:layout_marginBottom="30dp"
         android:background="@color/white"
         android:hint="Password"
         android:textAlignment="center"
-        android:textSize="20dpdp" />
+        android:textSize="20dp" />
 
     <Button
         android:id="@+id/btn"
