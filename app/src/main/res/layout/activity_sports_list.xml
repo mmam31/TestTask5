@@ -14,18 +14,63 @@
         android:layout_marginStart="70dp"
         android:layout_marginTop="40dp"
         android:layout_marginEnd="70dp"
-        android:layout_marginBottom="30dp"
+        android:layout_marginBottom="10dp"
         android:text="American Football" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/button2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="70dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="10dp"
         android:layout_marginEnd="70dp"
-        android:layout_marginBottom="30dp"
-        android:text="American Football" />
+        android:layout_marginBottom="10dp"
+        android:layout_below="@id/button"
+        android:text="Basketball" />
+
+    <Button
+    android:id="@+id/button3"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="70dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginEnd="70dp"
+    android:layout_marginBottom="10dp"
+    android:layout_below="@id/button2"
+    android:text="Cricket" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@id/button3"
+        android:text="Mixed Martial Arts" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@id/button4"
+        android:text="Rugby League" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@id/button5"
+        android:text="Soccer - Other" />
 
 
 </RelativeLayout>
