@@ -17,6 +17,7 @@
         android:layout_marginBottom="30dp"
         android:background="@color/white"
         android:hint="User name"
+        android:minHeight="48dp"
         android:textAlignment="center"
         android:textSize="20dp"
         tools:layout_editor_absoluteX="177dp"
@@ -33,11 +34,12 @@
         android:layout_marginBottom="30dp"
         android:background="@color/white"
         android:hint="Password"
+        android:minHeight="48dp"
         android:textAlignment="center"
         android:textSize="20dp" />
 
     <Button
-        android:id="@+id/btn"
+        android:id="@+id/loginButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/password"
