@@ -16,7 +16,7 @@ public class SportsList extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sports_list);
 
-        americanFootballBtn = (Button) findViewById(R.id.loginButton);
+        americanFootballBtn = (Button) findViewById(R.id.button);
         americanFootballBtn.setOnClickListener(view -> openSportsDetails());
     }
 
